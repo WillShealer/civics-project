@@ -11,4 +11,44 @@ app.get('/', (req,res) => {
   res.render('home.ejs')
 })
 
+app.get('/abort', (req,res) => {
+  res.render('abort.ejs')
+})
+
+app.get('/defense', (req,res) => {
+  res.render('defense.ejs') //Alex
+})
+
+app.get('/environment', (req,res) => {
+  res.render('environment.ejs')
+})
+
+app.get('/guncontrol', (req,res) => {
+  res.render('guncontrol.ejs') //Alex
+})
+
+app.get('/healthcare', (req,res) => {
+  res.render('healthcare.ejs')
+})
+
+app.get('/immigration', (req,res) => {
+  res.render('immigration.ejs') //Mason
+})
+
+app.get('/marriage', (req,res) => {
+  res.render('marriage.ejs') //Tyler
+})
+
+app.get('/punishment', (req,res) => {
+  res.render('punishment.ejs') //Tyler
+})
+
+app.get('/social', (req,res) => {
+  res.render('social.ejs')
+})
+
+app.get('/marijuana', (req,res) => {
+  res.render('marijuana') //Mason
+})
+
 app.listen(1234)
