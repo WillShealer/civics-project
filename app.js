@@ -11,10 +11,6 @@ app.get('/', (req,res) => {
   res.render('home.ejs')
 })
 
-app.get('/abort', (req,res) => {
-  res.render('abort.ejs')
-})
-
 app.get('/defense', (req,res) => {
   res.render('defense.ejs') //Alex
 })
