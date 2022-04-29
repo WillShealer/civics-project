@@ -47,4 +47,8 @@ app.get('/marijuana', (req,res) => {
   res.render('marijuana') //Mason
 })
 
+app.get('/taxes', (req,res) => {
+  res.render('taxes') //Mason
+})
+
 app.listen(1234)
